@@ -1,0 +1,226 @@
+/* このCSSファイルで使用する文字コードをUTF-8で記述することを設定 */
+@charset "utf-8";
+
+/* 各タグに対して値をリセット（初期化） */
+/* [1] それぞれのタグにあらかじめ設定されている余白の値を 0 に初期化する */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote { margin:0; padding:0; }
+/* [2] h1,h2,h3などの見出しタグに対してフォントサイズを 100% に初期化する */
+h1,h2,h3,h4,h5,h6 { font-size:100%; }
+
+
+/* ここからオリジナルなCSSを記述 */
+
+div#header {
+	background-color:#edede4;
+	padding:20px 20px 20px 20px;
+	border:solid 2px #ffcc66;
+	width: 940px ;
+	padding: 45px 0px 45px 20px ;
+	background-color:#1E3480;
+	background-image:url(haikei_01c.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	height:120px;
+	}
+div#header h1{
+	font-size:28px;
+	color: #ffffff ; 
+	}
+div#header p{
+	font-size:14px;
+	line-height:130%;
+	color: #f7fcfe;
+	width:500px;
+	}
+div#container{
+	width:940px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+}
+div#comment{
+	width:880px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	color:#504946;
+	line-height:150%;
+}
+div#contents{
+	width:580px;
+	margin-left:20px;
+	color:#626063;
+	float:left;
+}
+div#contents h2{
+	font-size:16px;
+	background-color:#d1e8ff;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:5px;
+	color:#0073a8;
+	}
+div#contents p{
+	font-size:14px;
+	margin-left:25px;
+	line-height:150%;
+	color:#626063;
+}
+div#contents h3{
+	font-size:14px;
+	color:#0073a8;
+	margin-left:25px;
+	}
+div#contents ul{
+	font-size:13px;
+	margin-left:45px;
+	margin-top:5px;
+	color:#626063;
+}
+div#menu{
+	width:160px;
+	float:left;
+	background-color:#698aab;
+	height:1370px;
+}
+div#menu ul{
+	width:140px;
+	list-style-type:none;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+div#menu ul li{
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+div#menu ul li a{
+	text-decoration:none;
+	color:#ffffff;
+	font-size:11px;
+}
+div#menu ul li a:hover{
+	color:#f8e58c;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+div#menu ul li.gakubu{
+	color:#fffff9;
+	font-size:13px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-top:dotted 1px #ffffff;
+	border-bottom:dotted 1px #ffffff;
+}
+p,ul{
+	text-align:justify;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+div#footer p{
+	text-align:center;
+	color:#898989;
+}
+div#footer{
+	clear:both;
+}
+.cp_hr02 {
+	border-width: 1px 0 0 0;
+	border-style: dashed;
+}
+div#side{
+	width:160px;
+	float:left;
+	margin-left:20px;
+}
+span.info{
+	color:#cf3333;
+	font-weight:bold;
+}
+div#menu3{
+	text-align:right;
+	page-break-after:10px 0px 10px 0px;
+	font-size:13px;
+	color:#0088cf;
+}
+div#menu3 a:hover{
+	text-decoration: none;
+}
+div#menu3 img{
+	margin-right:5px;
+	vertical-align:-3px;
+}
+div#topic h2{
+	padding:10px 0px 10px 0px;
+	background-color:#a2c2e6;
+	text-align:center;
+	font-size:15px;
+	color:#003f8e;
+}
+div#topic p{
+	border-right:solid 1px #afafb0;
+	border-bottom:solid 1px #afafb0;
+	border-left:solid 1px #afafb0;
+	padding:10px 10px 10px 10px;
+	text-align:center;
+	font-size:10px;
+	margin-top:-3px;
+}
+div#topic p img{
+	margin:0px 10px 10px 10px;
+}
+div#menu2 ul{
+	list-style-type: none;
+		border-top:dotted 1px #afafb0;
+	}
+div#menu2 ul li{
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+		border-bottom:dotted 1px #afafb0;
+	}
+div#menu2 ul li a{
+	text-decoration: none;
+	color:#b33e5c;
+	}
+	div#menu2 ul li a:hover{
+		color:##e5c1cd;
+		font-weight:bold;
+	}
+	div#menu2{
+	margin-bottom:10px;
+}
+div#schedule {
+	margin-top: 30px ;
+	width:160px;
+	margin-left:auto;
+	margin-right:auto;
+	height:280px;
+	padding-left:10px;
+	overflow:auto;
+}
+div#schedule dd{
+	margin-top:3px;
+	padding-left:15px;
+	color:#747474;
+}
+div#schedule dt{
+	padding-top:5px;
+	padding-left:3px;
+	margin-top:5px;
+	color:#747474;
+}
+div#calendar{
+	margin-top: 30px ;
+	width:160px;
+	margin-left:auto;
+	margin-right:auto;
+	height:280px;
+	padding-left:10px;
+	overflow:auto;
+}

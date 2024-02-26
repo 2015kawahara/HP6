@@ -1,0 +1,58 @@
+/* このCSSファイルで使用する文字コードをUTF-8で記述することを設定 */
+@charset "utf-8";
+
+
+/* ここからオリジナルなCSSを記述 */
+
+div#dropdown ul {
+	width: 940px;
+	font-size: 16px; margin-top:-10px;
+	}
+
+div#dropdown ul li {
+	list-style-type: none;
+	width:188px;
+	float:left;
+	}
+
+div#dropdown ul li a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #18469b;
+	background-image:url(downloadのコピー.jpg);
+	display:block;
+	text-align:center;
+	padding:10px 0px 10px 0px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#dddddd #18469b #18469b #dddddd;
+	}
+div#dropdown ul li a:hover {
+	color: #ce7b02;
+	background-color: #ffffdd;
+	border-color:#18469b #dddddd #dddddd #18469b;
+	}
+div#dummy {
+	clear:both;
+}
+div#dropdown ul li ul li {
+	float:none;
+}
+div#dropdown ul li ul li a {
+	color: #666666;
+	background-image:url(images-1.jpg);
+	border-color:#dddddd #666666 #666666 #dddddd;
+}
+div#dropdown ul li ul li a:hover {
+	color: #707070;
+	background-color: #eeeeee;
+	border-color:#666666 #dddddd #dddddd #666666;
+	background-image:url(imagesのコピー.jpg);
+}
+div#dropdown ul li ul {
+	display:none;
+}
+div#dropdown ul li:hover ul {
+	display:block;
+	position:absolute;
+}
